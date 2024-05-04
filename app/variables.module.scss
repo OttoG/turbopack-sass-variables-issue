@@ -1,0 +1,9 @@
+$test-color: #012345;
+
+.variablesTest {
+  color: $test-color;
+}
+
+:export {
+  testColor: $test-color;
+}
